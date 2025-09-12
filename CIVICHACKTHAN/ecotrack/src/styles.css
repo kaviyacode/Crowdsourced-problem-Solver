@@ -1,0 +1,16 @@
+body { font-family: Arial, sans-serif; margin:0; background:#f7f7f9; color:#222; }
+.topbar { display:flex; justify-content:space-between; align-items:center; padding:12px 20px; background:#2b6cb0; color:white; }
+.topbar nav a { color:white; margin-left:12px; text-decoration:none; }
+.app main { padding:20px; max-width:1100px; margin:0 auto; }
+.card { background:white; padding:16px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.08); margin-bottom:18px; }
+input, textarea, select, button { font-size:14px; padding:8px; margin-top:6px; width:100%; box-sizing:border-box; }
+button { cursor:pointer; }
+.row { display:flex; gap:12px; }
+.col { flex:1; }
+.report-img { max-width:100%; border-radius:6px; margin-top:8px; }
+.small-btn { padding:6px 8px; margin-right:8px; display:inline-block; }
+.footer { text-align:center; padding:10px; color:#666; margin-top:20px; }
+.status-badge { padding:4px 8px; border-radius:6px; font-weight:600; }
+.badge-pending { background:#fff3bf; color:#8a6d00; }
+.badge-approved { background:#d4f7d4; color:#116611; }
+.badge-spam { background:#ffd6d6; color:#7a1b1b; }
