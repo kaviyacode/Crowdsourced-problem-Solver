@@ -4,7 +4,7 @@ import { getFirestore, collection, addDoc, doc, getDoc, getDocs, query, where, u
 import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC1zxso2ckfQTiScdC15DpqtANvUAlY6Fc",
+  apiKey: "#your api key",
   authDomain: "ecotrack-aed3e.firebaseapp.com",
   projectId: "ecotrack-aed3e",
   storageBucket: "ecotrack-aed3e.firebasestorage.app",
